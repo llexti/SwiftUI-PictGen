@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		3291CAC3277CA527001E6BC9 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		3291CAC5277CA606001E6BC9 /* icon1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1024x1024.png; path = Assets.xcassets/AppIcon.appiconset/icon1024x1024.png; sourceTree = "<group>"; };
+		3291CAC7277CB56F001E6BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D17361277739C3007620F2 /* SwiftUI-PictGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-PictGen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D17364277739C3007620F2 /* SwiftUI_PictGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PictGenApp.swift; sourceTree = "<group>"; };
 		32D17366277739C3007620F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		32D17363277739C3007620F2 /* SwiftUI-PictGen */ = {
 			isa = PBXGroup;
 			children = (
+				3291CAC7277CB56F001E6BC9 /* Info.plist */,
 				32D17364277739C3007620F2 /* SwiftUI_PictGenApp.swift */,
 				32D17366277739C3007620F2 /* ContentView.swift */,
 				3291CAC3277CA527001E6BC9 /* Tools.swift */,
@@ -280,6 +282,8 @@
 				DEVELOPMENT_TEAM = UB622F733M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-PictGen/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +313,8 @@
 				DEVELOPMENT_TEAM = UB622F733M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-PictGen/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
