@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3291CAC4277CA527001E6BC9 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3291CAC3277CA527001E6BC9 /* Tools.swift */; };
+		3291CAC6277CA606001E6BC9 /* icon1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 3291CAC5277CA606001E6BC9 /* icon1024x1024.png */; };
 		32D17365277739C3007620F2 /* SwiftUI_PictGenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D17364277739C3007620F2 /* SwiftUI_PictGenApp.swift */; };
 		32D17367277739C3007620F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D17366277739C3007620F2 /* ContentView.swift */; };
 		32D17369277739C4007620F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D17368277739C4007620F2 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3291CAC3277CA527001E6BC9 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		3291CAC5277CA606001E6BC9 /* icon1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1024x1024.png; path = Assets.xcassets/AppIcon.appiconset/icon1024x1024.png; sourceTree = "<group>"; };
 		32D17361277739C3007620F2 /* SwiftUI-PictGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-PictGen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D17364277739C3007620F2 /* SwiftUI_PictGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PictGenApp.swift; sourceTree = "<group>"; };
 		32D17366277739C3007620F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				32D17364277739C3007620F2 /* SwiftUI_PictGenApp.swift */,
 				32D17366277739C3007620F2 /* ContentView.swift */,
+				3291CAC3277CA527001E6BC9 /* Tools.swift */,
+				3291CAC5277CA606001E6BC9 /* icon1024x1024.png */,
 				32D17368277739C4007620F2 /* Assets.xcassets */,
 				32D1736A277739C4007620F2 /* Preview Content */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3291CAC6277CA606001E6BC9 /* icon1024x1024.png in Resources */,
 				32D1736C277739C4007620F2 /* Preview Assets.xcassets in Resources */,
 				32D17369277739C4007620F2 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3291CAC4277CA527001E6BC9 /* Tools.swift in Sources */,
 				32D17367277739C3007620F2 /* ContentView.swift in Sources */,
 				32D17365277739C3007620F2 /* SwiftUI_PictGenApp.swift in Sources */,
 			);
